@@ -38,10 +38,10 @@ class HangmanPanel extends JPanel implements MouseListener, KeyListener{
 		this.setSize(100,500);
 		this.setVisible(true);
 		this.setFocusable(true);
-		icon = new ImageIcon("image/Hangman2.png");
+		icon = new ImageIcon("image/Hangman1.png");
 		img = icon.getImage();
 		
-		icon2 = new ImageIcon("image/alphabet1.jpg");
+		icon2 = new ImageIcon("image/alphabet101.png");
 		img2 = icon2.getImage();
 		
 		addMouseListener(this);	
